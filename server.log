@@ -1,0 +1,927 @@
+[dotenv@17.2.3] injecting env (2) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+Server running on http://localhost:3000
+To send data using curl:
+curl -X POST -H "Content-Type: application/json" -d "{\"fall_status\":false, \"heart_rate\":72, \"sleep_hours\":6.5, \"spo2\":98}" http://127.0.0.1:3000/api/readings
+New client connected
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 70,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:30:48.257Z'
+}
+🚨 FALL DETECTED! Sending SMS alerts...
+❌ Fast2SMS API Error: You need to complete one transaction of 100 INR or more before using API route. {
+  status_code: 999,
+  message: 'You need to complete one transaction of 100 INR or more before using API route.'
+}
+✅ SMS sent to Debug User (9113686287)
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 120,
+  sleep_hours: 5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:30:54.336Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 120,
+  sleep_hours: 5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:30:56.339Z'
+}
+🚨 FALL DETECTED! Sending SMS alerts...
+❌ Fast2SMS API Error: You need to complete one transaction of 100 INR or more before using API route. {
+  status_code: 999,
+  message: 'You need to complete one transaction of 100 INR or more before using API route.'
+}
+✅ SMS sent to Debug User (9113686287)
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 89,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:31:22.455Z'
+}
+ESP32 Disconnected (Timeout)
+New client connected
+New client connected
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 86,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:31:54.910Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 91,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:32:24.548Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 71,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:32:27.497Z'
+}
+Client disconnected
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 61,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:32:30.041Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 96,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:32:32.293Z'
+}
+🚨 FALL DETECTED! Sending SMS alerts...
+❌ Fast2SMS API Error: You need to complete one transaction of 100 INR or more before using API route. {
+  status_code: 999,
+  message: 'You need to complete one transaction of 100 INR or more before using API route.'
+}
+✅ SMS sent to Debug User (9113686287)
+ESP32 Disconnected (Timeout)
+Client disconnected
+New client connected
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 83,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:32:58.302Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 92,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:33:00.557Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 82,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:33:02.810Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 99,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:33:05.878Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 73,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:33:08.337Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 68,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:33:10.795Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 93,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:33:13.255Z'
+}
+🚨 FALL DETECTED! Sending SMS alerts...
+❌ Fast2SMS API Error: You need to complete one transaction of 100 INR or more before using API route. {
+  status_code: 999,
+  message: 'You need to complete one transaction of 100 INR or more before using API route.'
+}
+✅ SMS sent to Debug User (9113686287)
+ESP32 Disconnected (Timeout)
+Location captured: {
+  latitude: 13.327949731656302,
+  longitude: 77.1205916665913,
+  accuracy: 95,
+  timestamp: '2025-12-10T12:33:39.978Z'
+}
+  Coordinates: 13.327949731656302, 77.1205916665913
+  Accuracy: ±95m
+  Timestamp: 2025-12-10T12:33:39.978Z
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 93,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:33:46.224Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 60,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:33:49.296Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 94,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:33:52.576Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 63,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:33:55.442Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 90,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:33:58.314Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 94,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:34:01.381Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 61,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:34:04.043Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 66,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:34:06.706Z'
+}
+🚨 FALL DETECTED! Sending SMS alerts...
+❌ Fast2SMS API Error: You need to complete one transaction of 100 INR or more before using API route. {
+  status_code: 999,
+  message: 'You need to complete one transaction of 100 INR or more before using API route.'
+}
+✅ SMS sent to Debug User (9113686287)
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 68,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:34:40.622Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 74,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:34:43.775Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 60,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:34:46.641Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 98,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:34:49.712Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 88,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:34:53.608Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 96,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:34:56.271Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 72,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:34:58.730Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 83,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:01.189Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 96,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:04.459Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 60,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:35:06.918Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 64,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:09.581Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 91,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:12.041Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 92,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:14.709Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 75,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:35:17.381Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 62,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:19.821Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 77,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:22.484Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 61,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:35:25.003Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 93,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:35:28.014Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 66,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:35:30.990Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 70,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:35:33.747Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 75,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:35:36.614Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 65,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:35:38.871Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 94,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:35:41.643Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 85,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:35:44.192Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 93,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:47.069Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 71,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:35:49.721Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 79,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:35:52.998Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 90,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:35:55.671Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 82,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:35:58.119Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 99,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:36:00.578Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 67,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:36:03.443Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 96,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:36:05.903Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 85,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:36:08.358Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 80,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:36:10.500Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 74,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:36:13.073Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 79,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:36:15.843Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 79,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:36:18.612Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 91,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:36:21.272Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 94,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:36:24.249Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 90,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:36:26.588Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 90,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:36:29.043Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 94,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:36:31.705Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 63,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:36:34.162Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 75,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:36:36.826Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 81,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:36:39.282Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 76,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:36:42.354Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 78,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:36:44.813Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 89,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:36:47.474Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 80,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:36:49.932Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 72,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:36:52.801Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 66,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:36:55.666Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 80,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:36:58.125Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 69,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:37:00.585Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 94,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:37:03.039Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 89,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:37:05.704Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 72,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:37:08.365Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 70,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:37:10.835Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 86,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:37:13.483Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 80,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:37:15.942Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 83,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:37:18.196Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 89,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:37:20.654Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 70,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:37:23.111Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 92,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:37:26.182Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 90,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:37:28.439Z'
+}
+🚨 FALL DETECTED! Sending SMS alerts...
+❌ Fast2SMS API Error: You need to complete one transaction of 100 INR or more before using API route. {
+  status_code: 999,
+  message: 'You need to complete one transaction of 100 INR or more before using API route.'
+}
+✅ SMS sent to Debug User (9113686287)
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: false,
+  heart_rate: 93,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:38:01.685Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 96,
+  sleep_hours: 7.5,
+  spo2: 95,
+  timestamp: '2025-12-10T12:38:04.277Z'
+}
+🚨 FALL DETECTED! Sending SMS alerts...
+❌ Fast2SMS API Error: You need to complete one transaction of 100 INR or more before using API route. {
+  status_code: 999,
+  message: 'You need to complete one transaction of 100 INR or more before using API route.'
+}
+✅ SMS sent to Debug User (9113686287)
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 99,
+  sleep_hours: 7.5,
+  spo2: 99,
+  timestamp: '2025-12-10T12:38:37.457Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 72,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:39:10.107Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 93,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:39:43.004Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 85,
+  sleep_hours: 7.5,
+  spo2: 97,
+  timestamp: '2025-12-10T12:40:15.157Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 99,
+  sleep_hours: 7.5,
+  spo2: 96,
+  timestamp: '2025-12-10T12:40:47.921Z'
+}
+ESP32 Disconnected (Timeout)
+ESP32 Connected
+Received readings: {
+  fall_status: true,
+  heart_rate: 64,
+  sleep_hours: 7.5,
+  spo2: 98,
+  timestamp: '2025-12-10T12:41:20.475Z'
+}
+ESP32 Disconnected (Timeout)
+Client disconnected
+Client disconnected
